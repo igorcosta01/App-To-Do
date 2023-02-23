@@ -1,0 +1,154 @@
+/* Primeira DIV, Container Central, inputs de texto e botão, mas estilo do botão ao passar o mouse */
+.containerCadastro{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 1px 2px 15px #000;
+}
+
+input[type='text'] {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 350px;
+    height: 25px;
+}
+
+#btnCadastrar{
+    margin-left: 20px;
+    color: white;
+    background-color: rgb(0, 76, 199);
+    width: 360px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+
+#btnCadastrar:hover{
+    background-color: rgb(0, 98, 255);
+}
+
+body{
+    height: 100%;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); 
+
+}
+
+hr{
+    width: 850px;
+}
+
+h3{
+    margin-top: -5px;
+    font-size: x-large;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+#tabela{
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    width: 950px;
+    min-height: 150px;
+    background-color: white;
+    box-shadow: 1px 2px 15px #000;
+
+}
+table {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    table-layout: fixed;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    height: 50px;
+    font-size: small;
+    font-size: 20px;
+}
+
+td{
+    border-collapse: collapse;
+    height: 50px;
+    margin-bottom: 20px;
+    font-size: 17px;
+    
+}
+
+.headDiv{
+    color: white;
+}
+
+.btnEditar{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: white;
+    background-color: rgb(0, 76, 199);
+    width: 100px;
+    height: 40px;
+    border-radius: 7px;
+    font-size: 16px;
+    border: none;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+
+.btnEditar:hover{
+    background-color: rgb(0, 98, 255);
+}
+
+.btnExcluir{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: white;
+    background-color: rgb(8, 226, 1);;
+    width: 100px;
+    height: 40px;
+    border-radius: 7px;
+    font-size: 16px;
+    border: none;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+
+.btnExcluir:hover{
+    background-color: rgb(6, 190, 0);
+}
+
+label {
+    margin-left: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#assinatura{
+    color: white;
+    text-align: center;
+    
+}
+
+#logo{
+
+    width: 150px;
+    height: 150px;
+    margin-bottom: 80px;
+
+}
